@@ -23,7 +23,7 @@ public class Creature {
 
             if (fullness > 15) {fullness = 15; }
 
-            System.out.println("That was a very delicious!");
+            System.out.println("That was very delicious!");
         }
     }
 
