@@ -28,7 +28,7 @@ public class Creature {
     }
 
     public void sleep(){
-        if (sleep >= 12){
+        if (energy  >= 12){
             System.out.println("Woops, " + this.getName() + " is not tired.");
         } else {
             fullness -= 5;
